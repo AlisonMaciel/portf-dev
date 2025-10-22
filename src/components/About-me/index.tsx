@@ -46,7 +46,7 @@ export function AboutMe({id}:AboutMeProps) {
         <p>Sou um desenvolvedor front-end em constante evolução, com foco em tecnologias modernas como ReactJS, TypeScript, JavaScript, Vite, Bibliotecas (Shadcn/UI | Recharts | Radix/UI) Styled-Components, Taiwilnd, CSS Modules. Tenho experiência prática em projetos full stack, mas meu principal objetivo hoje é me especializar no ecossistema front-end, explorando profundamente Next.js, UI interativa e performance.</p>
         <div className="separator-card">
           <div className="card">
-            <strong>601</strong>
+            <strong>653</strong>
             <span>Seguidores</span>
           </div>
           <div className="card">
