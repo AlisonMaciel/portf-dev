@@ -1,3 +1,4 @@
+import { PieChartSkillsNode } from "../ChartSkills/PieChartSkillNode";
 import { PieChartSkillsCss } from "../ChartSkills/PieChartSkillsCss";
 import { PieChartSkillsHtml } from "../ChartSkills/PieChartSkillsHtml";
 import { PieChartSkillsJS } from "../ChartSkills/PieChartSkillsJS";
@@ -23,6 +24,7 @@ export function TechnologicalSkills({id}:TechnologicalSkillsProps) {
         <PieChartSkillsCss />
         <PieChartSkillsJS />
         <PieChartSkillsReact />
+        <PieChartSkillsNode />
         <PieChartSkillsNext />
       </div>
     </TechnologicalSkillsContainer>

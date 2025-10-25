@@ -10,15 +10,15 @@ import {
 } from "../../ui/chart";
 
 const chartData = [
-  { browser: "Next", visitors: 30, fill: "#000000" },
-  { browser: "NotCompleted", visitors: 50, fill: "transparent" },
+  { browser: "Node", visitors: 80, fill: "#339933" },
+  { browser: "NotCompleted", visitors: 20, fill: "transparent" },
 ];
 const chartConfig = {
   visitors: {
     label: "Visitors",
   },
-  Next: {
-    label: "Next",
+  Node: {
+    label: "Node",
     color: "#000000",
   },
   NotCompleted: {
@@ -27,7 +27,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function PieChartSkillsNext() {
+export function PieChartSkillsNode() {
   return (
     <div>
       <Card>
@@ -64,14 +64,14 @@ export function PieChartSkillsNext() {
                               y={viewBox.cy}
                               className="fill-muted text-[22px] font-bold"
                             >
-                              Next
+                              Node
                             </tspan>
                             <tspan
                               x={viewBox.cx}
                               y={(viewBox.cy || 0) + 24}
                               className="fill-muted-foreground"
                             >
-                              2 meses
+                              1 ano e 1 mes
                             </tspan>
                           </text>
                         );

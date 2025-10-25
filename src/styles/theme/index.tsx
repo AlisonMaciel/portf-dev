@@ -19,5 +19,13 @@ export const defaultTheme = {
   'github': '#181717',
   'figma': '#F2704B ',
   'tailwind': '#06B6D4',
-  'styled': '#DB7093'
+  'styled': '#DB7093',
+  'node': '#339933',
+  'vitest': '#6E9F18',
+  'postgres': '#336791',
+  'sql': '#4479A1',
+  'knex': '#E44D26',
+  'fastify': '#000000',
+  'docker': '#1D63ED',
+  'prisma': '#7C5CFF'
 } as const

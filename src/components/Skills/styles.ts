@@ -17,9 +17,9 @@ export const SkilsContainer = styled.div`
       display: flex;
       align-items: center;
       width: 200%;
-      gap: 2.5rem;
+      gap: 1rem;
       overflow: hidden;
-      padding: 1.5rem 1.5rem 1.5rem 1.5rem;;
+      padding: 1.5rem 1.5rem 1.5rem 1.5rem;
       background-color: ${props => props.theme['skils-100']};
       box-shadow: 0px 0px 4px 0px ;
     }
@@ -27,13 +27,13 @@ export const SkilsContainer = styled.div`
     .infinite {
       display: flex;
       justify-content: space-between;
-      animation: ${infiniteScroll} 20s linear infinite;
+      animation: ${infiniteScroll} 30s linear infinite;
     }
 
     .scroll {
       display: flex;
       justify-content: space-between;
-      animation: ${infiniteScroll} 20s linear infinite;
+      animation: ${infiniteScroll} 30s linear infinite;
     }
 
     .html {
@@ -159,6 +159,103 @@ export const SkilsContainer = styled.div`
     .tailwind:hover {
       color: #53DFF5;
     }
+
+    .node {
+      height: 2rem;
+      width: 2rem;
+      color: ${props => props.theme['node']};
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .node:hover {
+      color: #2a7a29;
+    }
+
+    .vitest {
+      height: 2rem;
+      width: 2rem;
+      color: ${props => props.theme['vitest']};
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .vitest:hover {
+      color: #597f13;
+    }
+
+    .postgres {
+      height: 2rem;
+      width: 2rem;
+      color: ${props => props.theme['postgres']};
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .postgres:hover { 
+      color: #285275; 
+    }
+
+    .sql {
+      height: 2rem;
+      width: 2rem;
+      color: ${props => props.theme['sql']};
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .sql:hover { 
+      color: #36607f;
+    }
+
+    .knex {
+      height: 2rem;
+      width: 2rem;
+      color: ${props => props.theme['knex']};
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .knex:hover { 
+      color: #b93d1f;
+    }
+
+    .fastify {
+      height: 2rem;
+      width: 2rem;
+      color: ${props => props.theme['fastify']};
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .fastify:hover { 
+      color: #333333;
+    }
+
+    .docker {
+      height: 2rem;
+      width: 2rem;
+      color: ${props => props.theme['docker']};
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .docker:hover { 
+      color: #154dc2;
+    }
+
+    .prisma {
+      height: 2rem;
+      width: 2rem;
+      color: ${props => props.theme['prisma']};
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .prisma:hover { 
+      color: #6548cc;
+    }
+
     .styled {
       height: 2rem;
       width: 2rem;
@@ -172,17 +269,18 @@ export const SkilsContainer = styled.div`
     }
   }
 
+
   @media (max-width: 767px) {
     margin-top: 11rem;
 
     .infinite {
       justify-content: center;
-      gap: 2.5rem;
+      gap: 1rem;
     }
 
     .scroll {
       justify-content: center;
-      gap: 2.5rem;
+      gap: 1rem;
     }
   }
 `
