@@ -56,7 +56,7 @@ export function AboutMe({ id }: AboutMeProps) {
         </p>
         <div className="separator-card">
           <div className="card">
-            <strong>743</strong>
+            <strong>869</strong>
             <span>Seguidores</span>
           </div>
           <div className="card">
