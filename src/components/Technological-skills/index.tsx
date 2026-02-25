@@ -4,6 +4,9 @@ import { PieChartSkillsHtml } from "../ChartSkills/PieChartSkillsHtml";
 import { PieChartSkillsJS } from "../ChartSkills/PieChartSkillsJS";
 import { PieChartSkillsNext } from "../ChartSkills/PieChartSkillsNext";
 import { PieChartSkillsReact } from "../ChartSkills/PieChartSkillsReact";
+import { IconCloudDemo } from "../Icons-Cloud";
+
+import Alison from "@/assets/Gemini_Generated_Image_mlv81cmlv81cmlv8 (1).png"
 
 import { TechnologicalSkillsContainer } from "./styles";
 
@@ -26,6 +29,14 @@ export function TechnologicalSkills({id}:TechnologicalSkillsProps) {
         <PieChartSkillsReact />
         <PieChartSkillsNode />
         <PieChartSkillsNext />
+      </div>
+      <div className="flex justify-center items-center">
+        <div className="relative  md:w-[550px]">
+          <img className="w-full " src={Alison} alt="Pessoa segunrado algo com a mao" />
+            <div className="absolute right-0 top-0 ">
+              <IconCloudDemo />
+            </div>
+        </div>
       </div>
     </TechnologicalSkillsContainer>
   );

@@ -6,6 +6,7 @@ import { AboutMe } from "@/components/About-me";
 import { TechnologicalSkills } from "@/components/Technological-skills";
 import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 
 export function Home() {
   return (
@@ -17,6 +18,7 @@ export function Home() {
       <TechnologicalSkills id="Skills" />
       <Projects id="Projects" />
       <Contact id="Contact"/>
+      <Footer />
     </HomeContainer>
   )
 }
