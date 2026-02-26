@@ -19,7 +19,7 @@ export function Header() {
         </ul>
       </NavLinkHeader>
       <div className="menu">
-      <Menu />
+        <Menu />
       </div>
     </HeaderContainer>
   )

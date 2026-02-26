@@ -12,6 +12,17 @@ interface ContactProps {
 export function Contact({id}:ContactProps) {
   return (
     <ContactContainer>
+      <div className="flex justify-center items-center mb-3">
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/IsidFKw66V8?si=MUoXV92VougQH661" 
+        title="Apresentação Dev" 
+        frameBorder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  picture-in-picture; web-share">
+      </iframe>
+      </div>
+
       <div id={id} className="skills">
         <div className="borderOne"></div>
         <h2>Contato</h2>
